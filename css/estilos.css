@@ -1,0 +1,41 @@
+
+.navbar .nav-item .nav-link
+{
+	color: white;
+}
+
+body{
+	background-color: rgba(247, 241, 227,1.0);
+}
+
+.main-header
+{
+	background:url(../img/fondo.jpg);
+	min-height: 500px; /* Definir el tamaño de la imagen minimo*/
+	/* Definir la imagen como*/
+	background-size: cover;
+
+}
+
+.backgroup-overlay
+{
+	background-color: rgba(48, 51, 107,.7);/* el cuarto numero despues de un punto (porcentaje)hace mas transparente-->*/
+	width: 100%;
+	height: 100%;
+}
+.team
+{
+	background-color: rgba(48, 51, 107,1.0);
+}
+.contactos
+{
+	background-color: rgba(241, 242, 246,1.0);
+}
+#pie{
+	width: 100%;
+	height: 50px;
+	background-color: #999;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
